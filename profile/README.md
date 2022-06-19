@@ -1,7 +1,7 @@
 ## Overview 👋
 
 Knippert is an upcoming hairdresser platform.
-This project is made to test building a production ready architecture using two backends and hosting on Azure.
+This project is made to test building a production ready architecture using two backends and one client hosted on Azure.
 
 Knippert consists of the following (private) repositories:
 
