@@ -1,4 +1,20 @@
-## Hi there 👋
+## Overview 👋
+
+Knippert is an upcoming hairdresser platform.
+This project is made to test building a production ready architecture using two backends and hosting on Azure.
+
+Knippert consists of the following repositories:
+
+**knippert.webapp**
+A full-stack Next.js (TypeScript) application. Authentication done on client-side (PKCE) to allow scaling into CDN based static application.  
+
+**knippert.api**
+ASP.NET Core Web API (C#). Implementing an ORM (Entity Framework Core) with Azure SQL Database. During development we run a Microsoft SQL Server 2019 Docker container to reproduce production scenario. Authorization is done using Microsoft Identity with Azure B2C.
+
+The architecture involves using an CAIM (Azure B2C with Google as Identity Provider) to handle the authentication/authorization on three layers: the webapp backend/client and ASP.NET Core Web API.
+
+More to follow.
+
 
 <!--
 
