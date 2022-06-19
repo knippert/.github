@@ -3,7 +3,7 @@
 Knippert is an upcoming hairdresser platform.
 This project is made to test building a production ready architecture using two backends and hosting on Azure.
 
-Knippert consists of the following repositories:
+Knippert consists of the following (private) repositories:
 
 **knippert.webapp**
 A full-stack Next.js (TypeScript) application. Authentication done on client-side (PKCE) to allow scaling into CDN based static application.  
